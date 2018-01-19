@@ -84,6 +84,7 @@ docker login
 docker push <username>/<repository>:<tag>
 ```
 __*For use with Docker's public registry*__
+
 After logging into the Docker Public Registry, the `push` command is similar to `git push` and pushes the image to the Docker Public Registry (note: this is not a replacement for `git`).
 
 ```bash
